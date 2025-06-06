@@ -7,6 +7,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JpashopApplication {
 
 	public static void main(String[] args) {
+
+		/* Lombok 적용 테스트
+		LombokTest lombokTest = new LombokTest();
+		lombokTest.setData("Test");
+		System.out.println(lombokTest.getData());
+		*/
+
 		SpringApplication.run(JpashopApplication.class, args);
 	}
 
